@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/wand",
+  "textures": {
+    "layer0": "minecraft:item/wand",
+    "layer2": "minecraft:item/move_action",
+    "layer1": "item/empty"
+  }
+}
