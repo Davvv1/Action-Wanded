@@ -2,10 +2,11 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "item/wand",
 		"layer0": "item/wand",
 		"layer2": "item/empty",
-		"layer1": "item/empty"
+		"layer1": "item/empty",
+		"icon": "item/empty",
+		"icon_overlay": "item/empty"
 	},
 	"elements": [
 		{
@@ -77,8 +78,27 @@
 				"up": {"uv": [0, 0, 16, 16], "texture": "#layer1"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#layer1"}
 			}
+		},
+		{
+			"name": "icon",
+			"from": [6, -16, -12],
+			"to": [10, -14, -8],
+			"rotation": {"x": -180, "y": 0, "z": 0, "origin": [7, -16, -11]},
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#icon", "tintindex": 0}
+			}
+		},
+		{
+			"name": "icon_overlay",
+			"from": [6, -16, -12],
+			"to": [10, -14, -8],
+			"rotation": {"x": -180, "y": 0, "z": 0, "origin": [7, -16, -11]},
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#icon_overlay"}
+			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 2, 2]
@@ -99,7 +119,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"scale": [0, 0, 0]
+			"rotation": [90, 0, -180],
+			"translation": [0, -80, 0],
+			"scale": [4, 4, 4]
 		},
 		"head": {
 			"translation": [0, 10, 0]

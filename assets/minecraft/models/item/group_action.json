@@ -1,8 +1,10 @@
 {
-  "parent": "minecraft:item/wand",
-  "textures": {
-    "layer0": "minecraft:item/wand",
-    "layer2": "minecraft:item/group_action",
-    "layer1": "item/group_action_overlay"
-  }
+	"parent": "minecraft:item/wand",
+	"textures": {
+		"layer0": "minecraft:item/wand",
+		"layer2": "minecraft:item/group_power",
+		"layer1": "item/group_power_overlay",
+		"icon": "item/group_action",
+		"icon_overlay": "item/group_action_overlay"
+	}
 }

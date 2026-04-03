@@ -1,10 +1,13 @@
 {
 	"parent": "minecraft:item/wand",
 	"textures": {
-		"layer0": "item/wand",
-		"layer2": "item/empty",
-		"layer1": "item/empty"
+		"layer0": "minecraft:item/wand",
+		"layer2": "minecraft:item/empty",
+		"layer1": "item/empty",
+		"icon": "item/punch_action",
+		"icon_overlay": "item/empty"
 	},
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 2, 2]
@@ -25,7 +28,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"scale": [0, 0, 0]
+			"rotation": [90, 0, -180],
+			"translation": [0, -80, 0],
+			"scale": [4, 4, 4]
 		},
 		"head": {
 			"translation": [0, 10, 0]
