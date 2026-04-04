@@ -4,7 +4,7 @@
 _This looks so cool, thank you Ewan Howell for the minecraft title blockbench plugin_
 
 
-You know those _huge_ action items that block like half of your screen at all times? I didn't like that, so I made this.
+You know those _uninspired_ action items that look like garbage? I didn't like that, so I made this.
 
 Replaces the default item model for every "Action" item with a cool wand!
 
